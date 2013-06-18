@@ -13,6 +13,7 @@ my $build = Module::Build->new(
 		# This is a nasty hack so that XML::LibXML doesn't automatically pull
 		# the latest version that hates all reasonable versions of libxml2.
 		'XML::LibXML' => '< 2.0017',
+		'Try::Tiny' => 0.12,
 	},
 
 	recommends => {
